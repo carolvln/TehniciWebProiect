@@ -1,0 +1,28 @@
+	.ContainerPoze{
+	position:relative;
+	display: inline-flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	}
+	.Poza{
+		margin-right:5px;
+		margin-bottom: 5px;
+	}
+	#EditMenu input[type="number"],
+	#EditMenu button {
+    	margin-top: 10px;
+		padding: 5px;
+		font-size: 14px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+	}
+
+	#EditMenu button {
+		background-color: #750000;
+		color: white;
+		cursor: pointer;
+	}
+
+	#EditMenu button:hover {
+		background-color: #a00000;
+	}

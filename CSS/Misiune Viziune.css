@@ -1,0 +1,15 @@
+	.ContainerMijloc{
+	position:relative;
+	width:100%;
+	height:80%;
+	background-color: rgb(117,0,0);
+	}
+	.TextMisiune{
+	position:absolute;
+	font-size:3.5vw;
+	left:10%;
+	right:5%;
+	top:10%;
+	color:white;
+	}
+	

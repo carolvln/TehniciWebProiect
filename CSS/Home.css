@@ -1,0 +1,307 @@
+	body,html{
+  	margin:0;
+	padding: 0;
+	background-color: rgb(117,0,0);
+	}
+	.Bara{
+	position:relative;
+	display: inline-flex;
+	align-items:center;
+	justify-content: space-between;
+	width:100%;
+	height:110px;
+	background-color: var(--navbar-color, rgb(117,0,0));
+  	transition: background-color 0.3s ease;
+  	text-decoration: none;
+	}
+	.Sigla{
+	width:100px;
+	height:110px; 
+	position: relative;
+	display: flex;
+	}
+	.DropAct{
+		position: relative;
+		width: 50px;
+		height: 50px;
+		display: none;
+		right:100%;
+		cursor: pointer;
+	}
+	.Dropdown{
+	position: fixed;
+	display: none;
+	right:0;
+	top:110px;
+	grid-template-columns: auto;
+	z-index: 1;	
+
+	}
+	.DropLine{
+		background-color: rgba(0, 0, 0, 0.8);
+		position:relative;
+		width: 150px;
+		height: 60px;
+		z-index: 1;
+	}
+	.DropButton{
+	margin-inline: 9%;
+	position:relative;
+	margin: 0;
+	color:white;
+	font-size:24px;
+	cursor:pointer;
+	top:16.5px;
+	text-align: center;
+	}
+	.NavButton{
+	margin-inline: 10%;
+	position:relative;
+	color:white;
+	font-size:24px;
+	margin:0;
+	padding:0;
+	display: flex;
+	vertical-align: middle;
+	cursor:pointer;
+
+	}
+	@media all and (max-width: 720px) {
+		.NavButton { display: none; }
+		.DropAct {display: flex;}
+		}
+	.NavButton:hover{
+		color: rgb(230,216,164);
+	}
+	.DropButton:hover{
+		color: rgb(230,216,164);
+	}
+	.ContainerHomeImg{
+	position:relative;
+	font-size:width;
+	width:100%;
+	height: 0;
+	padding-bottom: 33%;
+	cursor:pointer;
+	}
+	.HomeImg{
+	height:100%;
+	width :100%; 
+	position:absolute;
+	}
+	.GalerieButon2{
+	position:absolute;
+	font-size: 3vw;
+	color:rgb(230,216,164);
+	left: 46.3%;
+	top: 44.7%;
+	opacity:0;
+	}
+	.HoverNegru{
+	position:absolute;
+	width:100%;
+	height:100%;
+	opacity:0;
+	transition: .5s ease;
+	background-color: #000000;
+	}
+	.ContainerHomeImg:hover .HoverNegru{opacity: 0.6;}
+	.ContainerHomeImg:hover .GalerieButon2 {opacity:1;}
+	.ContainerMijloc{
+	position:relative;
+	width:100%;
+	height:0;
+	padding-bottom: 50%;
+	background-color: var(--navbar-color, rgb(117,0,0));
+  	transition: background-color 0.3s ease;
+	}
+	.TextHome1{
+	color:white;
+	font-size: 3vw;
+	position:absolute;
+	left:20%;
+	}
+	.TextIon{
+	cursor: pointer;
+	color:white;
+	position:absolute;
+	font-size: 4vw;
+	left:34.5%;
+	top:30%;
+	}
+	.TextIon:hover{
+	color:rgb(230,216,164);
+	}
+	.PozaIon{
+	cursor:pointer;
+	position:absolute;
+	left:46%;
+	top:50%;
+	width:9%;
+	height:26%;
+	}
+	.HoverNegru2{
+	position:absolute;
+	left:46%;
+	top:50%;
+	width:9%;
+	height: 26%;
+	opacity:0;
+	transition: .5s ease;
+	background-color: #000000;
+	cursor:pointer;
+	}
+	.HoverIon:hover .HoverNegru2{
+	opacity: 0.6;	
+	}
+	.HoverIon:hover .TextIon{
+	color:rgb(230,216,164);
+	}
+	.ContainerColoane{
+	position:relative;
+	display: inline-flex;
+	width:100%;
+	height: 0;
+	padding-bottom: 40%;
+	justify-content: center;
+	}
+	.Coloana1:hover{
+	margin-top: 7%;
+	}
+	.Coloana2:hover{
+	margin-top: 7%;
+	}
+	.Coloana3:hover{
+	margin-top: 7%;
+	}
+	.Coloana4:hover{
+	margin-top: 7%;
+	}
+	.TextColoane{
+	position:absolute;
+	font-size:2.3vw;
+	color:white;
+	top:20%;
+	left:11%;
+	float: right;
+	}
+	.Coloana1{
+	cursor:pointer;
+	position:relative;
+	display: flex;
+	background-color: rgba(0,0,117);
+	width:20%;
+	height: 0;
+	margin-top: 10%;
+	padding-bottom: 27%;
+	}
+	
+	.Coloana2{
+	cursor:pointer;
+	position:relative;
+	display: flex;
+	width:20%;
+	height: 0;
+	padding-bottom: 27%;
+	background-color: rgba(59,0,117);
+	margin-top: 10%;
+	}
+	.Coloana3{
+	cursor:pointer;
+	position:relative;
+	display: flex;
+	width:20%;
+	height: 0;
+	padding-bottom: 27%;
+	background-color: rgba(0,117,117);
+	margin-top: 10%;
+	}
+	.Coloana4{
+	cursor:pointer;
+	position:relative;
+	display: flex;
+	width:20%;
+	height: 0;
+	padding-bottom: 27%;
+	background-color: rgba(117,0,0);
+	margin-top: 10%;
+	}
+	.FinalPag{
+	position:relative;
+	height:12%;
+	width:100%;
+	background-color:var(--navbar-color, rgb(117,0,0));
+	font-size:3vw;
+	text-align:center;
+	}
+	a:link { 
+		text-decoration: none; 
+	  } 
+	  a:visited { 
+		text-decoration: none; 
+	  } 
+	  a:hover { 
+		text-decoration: none; 
+	  } 
+	  a:active { 
+		text-decoration: none; 
+	  }
+	  .Clock {
+		font-size: 18px;
+		color: white;
+		margin-left: 20px;
+		font-family: Arial, sans-serif;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	@media all and (max-width: 820px) {
+		.Clock {
+			display: none; 
+		}
+	}
+	#EditMenu {
+		display: none; /* Ascuns implicit */
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 50%;
+		height: 300px;
+		background-color: rgba(0, 0, 0, 0.8);
+		color: white;
+		border-radius: 10px;
+		padding: 20px;
+		z-index: 1000; /* Asigură-te că apare deasupra altor elemente */
+		box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+	}
+	
+	#CloseButton {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		background-color: red;
+		color: white;
+		border: none;
+		padding: 10px 15px;
+		cursor: pointer;
+		border-radius: 5px;
+		font-size: 16px;
+	}
+	
+	#CloseButton:hover {
+		background-color: darkred;
+	}
+	#Overlay {
+		display: none; 
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw; 
+		height: 100vh; 
+		background-color: rgba(0, 0, 0, 0.1);
+		z-index: 999;
+		pointer-events: all;
+	}
+	

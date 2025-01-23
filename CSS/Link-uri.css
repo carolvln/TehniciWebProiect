@@ -1,0 +1,21 @@
+	.ContainerMijloc{
+	position:relative;
+	width:100%;
+	height:90%;
+	background-color: rgb(117,0,0);
+	}
+	.ContainerLink{
+	color:white;
+	left:10%;
+	position:absolute;
+	font-size:3vw;
+	}
+	.ISJ{
+	color:white;
+	}
+	.MEN{
+	color:white;
+	}
+	.ISJ:hover{ cursor:pointer; color:rgb(230,216,164); }
+	.MEN:hover{ cursor:pointer; color:rgb(230,216,164); }
+	
